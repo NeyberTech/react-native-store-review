@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.homepage       = "https://github.com/oblador/react-native-store-review"
   s.license        = "MIT"
   s.author         = { "Joel Arvidsson" => "joel@oblador.se" }
-  s.platform       = :ios, "12.4"
   s.source         = { :git => "https://github.com/oblador/react-native-store-review.git", :tag => "v#{s.version}" }
   s.source_files   = "ios/*.{h,m,mm}"
   s.preserve_paths = "**/*.js"
